@@ -9,25 +9,25 @@ module.exports = {
      question: '_____ нас связала Тайною нашей стала Всем уговорам твержу я в ответ: «Нас не разлучат, нет',
       answer: 'Музыка',
       topicId: 1,
-      img :
-     },
+      img : '/songs/mirage.jpg'
+         },
      {
       question: '______ тем, кто с нами делятся чудесами И  зависают на весах под правильный саунд Мы не из тех, кто на измене валит на Запад Перезвони, если занят, мы всё взяли',
        answer: 'Респект',
        topicId: 1,
-       img :
+       img : '/songs/ak47.jpg'
       }
       {
         question: 'Ну где же _____? Ну где же ваши _____? Давай, поднимем ручки и будем танцевать',
          answer: 'Ручки',
          topicId: 1,
-         img :
+         img : '/songs/virus.jpg'
         },
         {
           question: 'Катастрофически тебя не хватает мне Жгу __________ но не попадаю я Воздух толчками и пульс на три счёта.',
            answer: 'Электричество',
            topicId: 1,
-           img :
+           img : '/songs/nightSnipers.jpg'
           }
 
           {
@@ -35,14 +35,41 @@ module.exports = {
 
             answer: 'Порох',
              topicId: 1,
-             img :
+             img : '/songs/kino.jpg'
             }
           {
-            question: '____ его теперь в твоих руках, Не потеряй его и не сломай!',
-             answer: 'Сердце',
-             topicId: 1,
-             img :
+            question: 'Назовите марку автомобиля?',
+             answer: 'Fiat',
+             topicId: 2,
+             img : '/cars/Fiat.jpg'
             }
+            {
+              question: 'Назовите марку автомобиля?',
+               answer: 'BMW',
+               topicId: 2,
+               img : '/cars/bmw.jpg'
+              }
+              {
+                question: 'Назовите марку автомобиля?',
+                 answer: 'Lada',
+                 topicId: 2,
+                 img : '/cars/lada.jpg'
+                }
+                {
+                  question: 'Назовите марку автомобиля?',
+                   answer: 'Lamborghini',
+                   topicId: 2,
+                   img : '/cars/lamborghini.jpg'
+                  }
+                  {
+                    question: 'Назовите марку автомобиля?',
+                     answer: 'Tagaz',
+                     topicId: 2,
+                     img : '/cars/tagaz.jpg'
+                    }
+
+
+
       ], {});
     
   },
