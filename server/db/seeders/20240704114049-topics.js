@@ -4,11 +4,11 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.bulkInsert(
-      "People",
+      "Topics",
       [
         {
-          question: "John Doe",
-          isBetaMember: false,
+          title: "John Doe",
+          img: 'asd',
         },
       ],
       {}
@@ -16,11 +16,6 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    /**
-     * Add commands to revert seed here.
-     *
-     * Example:
-     * await queryInterface.bulkDelete('People', null, {});
-     */
+    await queryInterface.bulkDelete("Topics", null, {});
   },
 };
