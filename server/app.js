@@ -12,5 +12,5 @@ app.use(express.static(path.join(__dirname, "public")));
 const indexRouter = require("./routes/index.routes");
 app.use("/api", indexRouter);
 app.listen(PORT, () => {
-  console.log(`Выпили ${PORT} ПЫВА`);
+  console.log(`Выпили ${PORT}л ПЫВА`);
 });
