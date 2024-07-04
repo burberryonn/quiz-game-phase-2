@@ -7,8 +7,12 @@ module.exports = {
       "Topics",
       [
         {
-          title: "John Doe",
-          img: 'asd',
+          title: "Songs",
+          id: 1,
+        },
+        {
+          title: "Cars",
+          id: 2,
         },
       ],
       {}
