@@ -10,11 +10,11 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       title: {
-        autoIncrement: true,
+        allowNull: false,
         type: Sequelize.TEXT
       },
       img: {
-        autoIncrement: true,
+        allowNull: false,
         type: Sequelize.TEXT
       },
       createdAt: {
