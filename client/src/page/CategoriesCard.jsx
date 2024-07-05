@@ -1,12 +1,23 @@
-import React from'react';
-import Question from './Question';
-function CategoriesCard({topic,setTopics}) {
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import "./CategoriesCard.css";
+
+function CategoriesCard({ topic }) {
+  const navigate = useNavigate();
+  const [unclick, setUnclik] = useState(false);
+
+  const onHandleUnclick = () => {
+    setUnclik(true);
+    navigate(`${topic.id}/questions`);
+  };
+
   return (
-      <div >
-        <img src={topic.img} alt="asd" />
+    <div className={`card-container ${unclick ? "completed" : ""}`}>
+      <div className="card" onClick={onHandleUnclick}>
+        <img src={topic.img} alt={topic.title} />
         <h1>{topic.title}</h1>
-        <button onClick={() => <Question topic ={topic}/>}>asdasd</button>
       </div>
+    </div>
   );
 }
 

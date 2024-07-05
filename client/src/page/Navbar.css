@@ -1,0 +1,39 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007bff;
+    padding: 10px 20px;
+    color: #ffffff;
+    margin-bottom: 100px;
+  }
+  
+  .navbar-links {
+    display: flex;
+  }
+  
+  .navbar-link {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 21px;
+
+  }
+  
+  .navbar-logo img {
+    max-width: 100px;
+    height: auto;
+  }
+  
+  .footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
