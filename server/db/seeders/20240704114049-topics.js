@@ -9,10 +9,12 @@ module.exports = {
         {
           title: "Songs",
           id: 1,
+          img: "/public/cars/bmw.jpg",
         },
         {
           title: "Cars",
           id: 2,
+          img: "/public/cars/bmw.jpg",
         },
       ],
       {}

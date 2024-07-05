@@ -4,11 +4,8 @@ import CategoriesCard from "./CategoriesCard";
 function Categories() {
   const [topics, setTopics] = useState([]);
   const allCategories = async () => {
-    const {data} = await axiosRequest.get("/topics");
-   console.log('123')
-        setTopics(data.topics)
-        
-    
+    const { data } = await axiosRequest.get("/topics");
+    setTopics(data.topics);
   };
   useEffect(() => {
     allCategories();
