@@ -1,5 +1,7 @@
 const router = require("express").Router();
 const { Topics, Questions } = require("../../db/models");
+const multer = require('multer');
+const path = require('path');
 
 router.get("/", async (req, res) => {
   try {
